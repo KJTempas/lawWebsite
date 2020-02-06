@@ -25,8 +25,7 @@ h1 {
 
 .jumbotron {
     background-color: lightgray;/* lightslategray;*/
-    
-    /*background: url('images/raphael-andres-Ym7NVRKgmJc-unsplash.jpg')*/  
+     
 }
 .resize {
     height: 400px;
@@ -49,6 +48,10 @@ a{
     padding-right: 35px;
     font-size: 1.5rem;
 }
+.aboutAndContacts{
+    margin-top: 3rem;
+}
+
 /*
 img.align-left-large {
     float: left;
@@ -58,28 +61,41 @@ img.align-left-large {
 .photos{
     margin-left: 20px;
 }
-
-.lawyerspics{
-    width: 300px;
-    height: 300px;
-}
-
-.lawAreaHeader{
-    margin-top: 5rem;   
-    margin-left: 4rem; 
-
-}
 .basicInfo{
     font-size: 1.25rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-left: 4rem;
     margin-right: 8rem;
       
 }
+/*.lawyerspics{
+    width: 300px;
+    height: 400px;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}*/
+#mikepic{
+    width: 300px;
+    height: 400px;
+    margin-left: 5rem;
+    margin-right: 7 rem;
+}
+#darrylpic{
+    width: 300px;
+    height: 400px;
+    margin-left: 7rem;
+    margin-right: 5rem;
+}
+
+
+.lawAreaHeader{
+    margin-top: 5rem;   
+    margin-left: 4rem; 
+}
 .attorneyInfoDarryl{
     margin-right: 10rem;
     margin-top: 7rem;
-    margin-right: 10rem;
+    margin-left: 5rem;
     font-size: 1.25rem;
 }
 .attorneyInfoMike{
@@ -102,7 +118,4 @@ a.email{
 #footer{
     margin-left: 5rem;
 }
-/*
-.index{
-    text-align: center;
-}*/
+
