@@ -6,14 +6,10 @@ body{
 .generalInfo {    /* refers to the body*/
     font-size: larger;
     margin: 100px;
-    /* Chrome 10+, Safari 5.1+ */
-   /* background-image: -webkit-linear-gradient(#66b2f4,#b1d6f7)*/
-   /*background: rgb(106,100,215);
-   background: linear-gradient(90deg, rgba(106,100,215,1) 0%, rgba(101,101,181,1) 40%, rgba(158,180,214,1) 100%);*/
    background: rgb(150,176,238);
     background: linear-gradient(90deg, rgba(150,176,238,1) 0%, rgba(145,168,214,1) 40%, rgba(192,204,223,1) 100%);
 }
-.sticky-top{
+.sticky-top{ /*makes the nav bar stay at top*/
     position: sticky
 }
 h1 {
@@ -22,16 +18,14 @@ h1 {
     color: darkblue;
 }
 
-
 .jumbotron {
-    background-color: lightgray;/* lightslategray;*/
-     
+    background-color: lightgray;   
 }
 .resize {
     height: 400px;
 }
 
-img{
+img{    
    width: 100%;
     height: 20%;
 }
@@ -45,21 +39,28 @@ li {
 }
 a{
     color:goldenrod;
-    padding-right: 35px;
+    padding-right: 36px;
     font-size: 1.5rem;
 }
 .aboutAndContacts{
     margin-top: 3rem;
 }
-
+.email{
+    font-size: 1.0rem;
+}
 /*
 img.align-left-large {
     float: left;
     margin-right: 10px;
 }*/
 
-.photos{
+.photos{  
     margin-left: 20px;
+}
+
+.lawAreaHeader{
+    margin-top: 5rem;   
+    margin-left: 4rem; 
 }
 .basicInfo{
     font-size: 1.25rem;
@@ -87,11 +88,6 @@ img.align-left-large {
     margin-right: 5rem;
 }
 
-
-.lawAreaHeader{
-    margin-top: 5rem;   
-    margin-left: 4rem; 
-}
 .attorneyInfoDarryl{
     margin-right: 10rem;
     margin-top: 7rem;
@@ -104,15 +100,14 @@ img.align-left-large {
     margin-right: 5rem;
     font-size: 1.25rem;
 }
-.email{
-    font-size: 1.0rem;
-}
+
+
 footer{
     background-color: lightslategray;
 }
 a.email{
-    /*color: rgb(49, 51, 184);*/
     color: blue;
+    font-size: 1rem;
     
 }
 #footer{
