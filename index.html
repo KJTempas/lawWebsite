@@ -2,43 +2,51 @@
 <head>
 <lang=”en”>
 <meta charset = “utf-8”>
-<meta name="viewport" content="width=device-width, initial-scal=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <title>website for Mike Jilka </title>
 <!--CSSstyle sheet and Bootstrap links here-->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="MikeJ.css">
+<script async defer src="lawAreas.css"></script>  
+<meta name="description=" content="Graves & Jilka, P.C. is a law firm that practices primarily in the areas of landlord/tenant, wills and trust, debt collection and probate litigation in Lawrence, KS. " >
 </head>
 
 <body>
     <div class="container-fluid">
         
-        <div class="resize">
+        <!--<div class="resize">-->
         <div class="jumbotron">
             
             <img src="images/supremecourt_small.jpg" alt = "Supreme court building capital">
             <h1 class="text-center">Graves & Jilka, P.C. - Attorneys at Law</h1>
 <!-- photos here - Mike and Mike?  -->
         </div>
-    </div>
+    <!--</div>-->
 <!-- navigation bar-->        
 <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-    
 <div class="navigation">
-
 <ul class="list-inline">
     <!-- links to related files-->
     <li><a href="index.html">Home</a></li>
-    <li><a href="#attorneyProfiles">Attorney Profiles</a></li>
+    <li><a href="#" class="nav" name="attorneyProfiles">Attorney Profiles</a></li>
     <!--<li><a href="estate_planning.html">Estate Planning</a></li>-->
-    <li><a href="#estatePlanning">Estate Planning</a></li>
-    <!--<li><a href="landlord_tenant.html">Landlord Tenant</a></li>-->
-    <li><a href="#landlordTenant">Landlord Tenant</a></li>
+    <!--<li><a href="#estatePlanning" >Estate Planning</a></li>works but nav bar covers top of page-->
+    <li><a href="#" class="nav" name="estatePlanning">Estate Planning</a></li><!--trial-->
+
+    <!--<li><a href="landlord_tenant.html">Landlord Tenant</a></li> new page for each law area-->
+    <!--<li><a href="#landlordTenant" >Landlord Tenant</a></li>-->
+    <li><a href="#" class="nav" name="landlordTenant">Landlord Tenant</a></li>
+
     <!--<li><a href="debt_collection.html">Debt Collection</a></li>-->
-    <li><a href="#debtCollection">Debt Collection</a></li>
+    <!--<li><a href="#debtCollection" >Debt Collection</a></li>-->
+    <li><a href="#" class="nav" name="debtCollection">Debt Collection</a></li>
+
     <!--<li><a href="real_estate.html">Real Estate</a></li>-->
-    <li><a href="#realEstate"> Real Estate</a></li>
-    <li><a href="#traffic">Traffic</a></li>
+    <!--<li><a href="#realEstate" name="realEstateLink"> Real Estate</a></li> -->
+    <li><a href="#" class="nav" name="realEstate"> Real Estate</a></li> 
+
+    <!--<li><a href="#traffic">Traffic</a></li>-->
     <!--<li><a href="traffic.html">Traffic</a></li>-->
     <li><a href="index.html">Contact Us</a> 
 </ul>
@@ -50,7 +58,8 @@
 <!--the first row-->
 <div class="row">
     <div class="col-sm-5">  <!--column will be 4 units wide-->
-        <p> About the firm - something like Onglaw bottom left of page?</p>
+        <p> Graves & Jilka, P.C. is a law firm that practices primarily in the areas of landlord/tenant, wills and trust, debt collection and probate litigation.  
+            The firm is located in downtown Lawrence, across the street from the Douglas County Courthouse. </p>
     
     </div>
 
@@ -94,6 +103,8 @@
 
     <h2 class="lawAreaHeader">REAL ESTATE LAW</h2>
     <p class="basicInfo ">
+        
+        
         With over 32 years experience in the area of real estate law, and as a licensed real estate broker, 
         Darryl Graves is uniquely qualified to assist you 
         in all aspects of the sale and purchase of real estate, including "For Sale By Owner" contracts and closings.
@@ -116,11 +127,8 @@
 <div class="col-md-6 mt-8">
 <h2 class="lawAreaHeader">ESTATE PLANNING </h2>
     <p class="basicInfo">
-
-        Wills, Trusts, and Powers of Attorney.<br>
-
-        We offer professional drafting at reasonable prices for these and other essential personal documents.
-        Please call today to set up a free appointment to discuss your needs.
+        Graves & Jilka, P.C. represent clients in all aspects of estate planning.  
+        We draft wills, trusts, powers of attorney, and other estate planning documents.
     </p>
 </div>  
 </div><!--end of this row-->
@@ -140,9 +148,8 @@
 
 <h2 class="lawAreaHeader">LANDLORD TENANT LAW</h2>
 <p class="basicInfo">
-At Darryl Graves, P.C., we have been representing landlords and tenants for over three decades. Whether you need a 
-simple residential eviction, contractual revisions, assistance with statutory compliance, or an advocate to represent your 
-interests in court, our attorneys and staff are prepared to assist you.
+    Graves & Jilka, P.C. have represented landlords and tenants for over three decades.  We handle evictions, 
+    lease revisions, and other related matters.
 </p>
 </div>  
 </div><!--end of this row-->
@@ -182,9 +189,8 @@ interests in court, our attorneys and staff are prepared to assist you.
 <div class="col-md-6 mt-8">
 <h2 class="lawAreaHeader">DEBT COLLECTION</h2>
 <p class="basicInfo">
-If you are owed money on a promissory note, a contract, or a judgment, Darryl Graves, P.C. is 
-an experienced debt collector capable of recovering the money you are owed.
-
+    If you are owed money on a promissory note, a contract, or a judgment, 
+    Graves & Jilka, P.C. is an experienced debt collector capable of recovering the money you are owed.
 </p>
 </div>  
 </div><!--end of this row-->
@@ -196,8 +202,10 @@ an experienced debt collector capable of recovering the money you are owed.
             <div class="col-sm-4 mt-4">  <!--column will be 4 units wide-->
     
                 <!--<img class="lawyerspics" src="images/_YSC0003_edit.jpg" alt="picture of lawyer"/>-->
-                <img id="darrylpic" src="images/_YSC0003_edit.jpg" alt="picture of lawyer"/>
-            <!--Photo by Helloquence on Unsplash - man writing on paper-->
+                <!--<img id="darrylpic" src="images/_YSC0003_edit.jpg" alt="picture of lawyer"/>-->
+                <img id="darrylpic" src="images/_YSC0-2.jpg" alt="picture of lawyer"/>
+
+            
             </div>
     
             <div class="col-sm-8 mt-4">
@@ -220,10 +228,11 @@ an experienced debt collector capable of recovering the money you are owed.
     
     <!--second column in this row-->        
             <div class="col-sm-4 mt-4">
-        <!--a picture of mike will replace this photo-->
-                <!--<img class="lawyerspics" src="images/helloquence-OQMZwNd3ThU-unsplash.jpg" alt="Man writing on paper" />-->
+        <!--a picture of mike-->
                 <!--<img class="lawyerspics" src="images/_YSC0040_edit.jpg" alt="picture of lawyer"/>-->
-                <img id="mikepic" src="images/_YSC0040_edit.jpg" alt="picture of lawyer"/>
+                <!--<img id="mikepic" src="images/_YSC0040_edit.jpg" alt="picture of lawyer"/>-->
+                <img id="mikepic" src="images/_YSC-1.jpg" alt="picture of lawyer"/>
+
             </div>
     
         </div>  <!--end of this row-->
@@ -239,5 +248,7 @@ an experienced debt collector capable of recovering the money you are owed.
 
 </div> <!--end of container-fluid-->
 
+
 </body>
 </html>
+

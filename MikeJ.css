@@ -6,7 +6,7 @@ body{
 .generalInfo {    /* refers to the body*/
     font-size: larger;
     margin: 100px;
-   background: rgb(150,176,238);
+    background: rgb(150,176,238);
     background: linear-gradient(90deg, rgba(150,176,238,1) 0%, rgba(145,168,214,1) 40%, rgba(192,204,223,1) 100%);
 }
 .sticky-top{ /*makes the nav bar stay at top*/
@@ -21,9 +21,9 @@ h1 {
 .jumbotron {
     background-color: lightgray;   
 }
-.resize {
+/*.resize {
     height: 400px;
-}
+}*/
 
 img{    
    width: 100%;
