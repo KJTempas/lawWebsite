@@ -22,9 +22,9 @@ h1 {
 .jumbotron {
     background-color: lightgray;   
 }
-/*.resize {
+.resize {  /* reduces ht of navbar*/
     height: 400px;
-}*/
+}
 
 a.nav, li {
     display: inline;
