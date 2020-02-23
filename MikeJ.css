@@ -41,8 +41,13 @@ img{
 }
 a{
     color:goldenrod;
-    padding-right: 34px;
+    padding-right: 55px;
     font-size: 1.5rem;
+}
+
+#mapOfLawrence{
+    width: 100%;
+    max-width: 500px;
 }
 .aboutAndContacts{
     margin-top: 3rem;
@@ -56,6 +61,7 @@ a.email{
 .photos{  
     margin-left: 20px;
 }
+
 
 .lawyerspics{
     width: 300px;
